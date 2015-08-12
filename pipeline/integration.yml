@@ -4,10 +4,6 @@ platform: linux
 image: docker:///cloudcredo/ccp
 
 inputs:
- - name: ccp-services-bosh
-   path: .
 
 run:
-  path: ./scripts/ci/test.sh
-  args:
-  - integration
+  path: /bin/false
