@@ -1,0 +1,7 @@
+---
+applications:
+- name: ccp-dummy
+  host: ccp-dummy
+  memory: 64M
+  path: '../'
+  buildpack: ruby_buildpack
