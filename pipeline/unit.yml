@@ -4,6 +4,10 @@ platform: linux
 image: docker:///cloudcredo/ccp
 
 inputs:
+ - name: ccp-services-billing
+   path: .
 
 run:
-  path: /bin/true
+  path: ./scripts/ci/test.sh
+  args:
+  - unit

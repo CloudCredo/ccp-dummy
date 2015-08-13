@@ -1,2 +1,4 @@
-inherit: ./defaults.yml
-
+# We don't technically need this file,
+# but we wanted to preserve the naming conventions
+# between test & prod space
+inherit: ./scheduler.test.yml
