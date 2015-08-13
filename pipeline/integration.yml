@@ -4,6 +4,10 @@ platform: linux
 image: docker:///cloudcredo/ccp
 
 inputs:
+- name: ccp-api
+  path: .
 
 run:
-  path: /bin/true
+  path: ./scripts/ci/test.sh
+  args:
+  - integration
