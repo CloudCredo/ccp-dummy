@@ -1,2 +1,3 @@
-inherit: ./defaults.yml
-
+# This is not technically necessary,
+# we just want to keep the same naming convention
+inherit: ./worker.test.yml

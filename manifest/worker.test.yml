@@ -1,2 +1,2 @@
 inherit: ./defaults.yml
-
+name: ccp-bosh-worker
