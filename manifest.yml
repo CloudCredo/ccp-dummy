@@ -1,5 +1,5 @@
 path: './'
-name: ccp-dummy
+name: ccp-docs
 memory: 64M
 buildpack: ruby_buildpack
 no-route: true

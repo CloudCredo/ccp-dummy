@@ -8,7 +8,4 @@ inputs:
    path: .
 
 run:
-  path: /bin/bash
-  args:
-  - -c
-  - "set -x && pwd && ls -F && ls -F .."
+  path: ./scripts/ci/build_docs.sh
