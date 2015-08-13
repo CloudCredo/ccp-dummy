@@ -1,1 +1,4 @@
-inherit: manifest/defaults.yml
+name: ccp-dummy
+memory: 64M
+buildpack: ruby_buildpack
+no-route: true
