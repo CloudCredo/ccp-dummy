@@ -7,4 +7,6 @@ inputs:
 
 run:
   path: /bin/bash
-  args: -c "set -x && pwd && ls -F && ls -F .."
+  args:
+  - -c
+  - "set -x && pwd && ls -F && ls -F .."
