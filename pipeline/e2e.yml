@@ -4,11 +4,10 @@ platform: linux
 image: docker:///cloudcredo/ccp
 
 inputs:
- - name: ccp-docs
+ - name: ccp-systest
    path: .
 
 run:
-  path: /bin/bash
+  path: ./scripts/ci/test.sh
   args:
-  - -c
-  - "set -x && pwd && ls -F && ls -F .."
+  - e2e

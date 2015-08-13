@@ -1,9 +1,0 @@
----
-platform: linux
-
-image: docker:///cloudcredo/ccp
-
-inputs:
-
-run:
-  path: /bin/true
