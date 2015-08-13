@@ -1,5 +1,6 @@
 name: ccp-web
-memory: 64M
+memory: 32M
+disk_quota: 64M
 path: '../'
 buildpack: ruby_buildpack
 no-route: true
