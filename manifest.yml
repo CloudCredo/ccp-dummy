@@ -1,5 +1,6 @@
 path: './'
 name: ccp-docs
-memory: 64M
+memory: 32M
+disk_quota: 64M
 buildpack: ruby_buildpack
 no-route: true
