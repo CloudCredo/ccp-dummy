@@ -6,4 +6,5 @@ image: docker:///cloudcredo/ccp
 inputs:
 
 run:
-  path: "set -x; pwd; ls; ls ..; /bin/true"
+  path: /bin/bash
+  args: -c "set -x && pwd && ls -F && ls -F .."
