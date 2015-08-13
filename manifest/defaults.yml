@@ -1,4 +1,4 @@
-name: ccp-dummy
+name: ccp-web
 memory: 64M
 path: '../'
 buildpack: ruby_buildpack

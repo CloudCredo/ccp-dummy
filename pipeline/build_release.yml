@@ -1,11 +1,11 @@
 ---
 platform: linux
 
-image: docker:///cloudcredo/ccp
+image: docker:///node#0.10.32
 
 inputs:
 - name: ccp-web
   path: .
 
 run:
-  path: /bin/true
+  path: ./scripts/ci/build_release.sh
