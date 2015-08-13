@@ -4,6 +4,8 @@ platform: linux
 image: docker:///cloudcredo/ccp
 
 inputs:
+ - name: ccp-services-users
+   path: .
 
 run:
-  path: /bin/true
+  path: ./scripts/ci/unit.sh
