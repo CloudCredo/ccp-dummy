@@ -1,2 +1,2 @@
-inherit: ./defaults.yml
+inherit: ./worker.test.yml
 
