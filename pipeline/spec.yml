@@ -1,0 +1,11 @@
+---
+platform: linux
+
+image: docker:///ruby#2.2.2
+
+inputs:
+ - name: delete-aws-resources
+   path: .
+
+run:
+  path: ./pipeline/spec.sh
