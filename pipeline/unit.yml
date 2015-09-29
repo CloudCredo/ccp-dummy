@@ -1,0 +1,11 @@
+---
+platform: linux
+
+image: docker:///cloudcredo/ccp
+
+inputs:
+- name: ccp-cli
+  path: .
+
+run:
+  path: ./scripts/ci/unit.sh
