@@ -1,0 +1,11 @@
+---
+platform: linux
+
+image: docker:///cloudcredo/ccp
+
+inputs:
+- name: ccp-web-acceptance-test
+  path: .
+
+run:
+  path: ./scripts/ci/test.sh
