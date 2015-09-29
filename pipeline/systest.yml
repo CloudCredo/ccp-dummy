@@ -1,11 +1,1 @@
----
-platform: linux
-
-image: docker:///cloudcredo/ccp
-
-inputs:
- - name: ccp-api
-   path: .
-
-run:
-  path: ./scripts/ci/systest.sh
+default.yml

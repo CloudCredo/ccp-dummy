@@ -1,9 +1,3 @@
-#!/bin/bash
+#!/bin/bash -ex
 
-set -x
-
-pwd
-ls
-ls ..
-
-exit 0
+env

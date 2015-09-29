@@ -1,6 +1,5 @@
-name: ccp-api
-memory: 32M
-disk_quota: 64M
-path: '../'
-buildpack: ruby_buildpack
+command: 'kill -STOP $$'
+buildpack: https://github.com/jbayer/null-buildpack
 no-route: true
+memory: 1M
+disk_quota: 1M
